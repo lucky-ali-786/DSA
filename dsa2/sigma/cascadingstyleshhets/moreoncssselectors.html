@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slectors</title>
+    <style>
+        .box *{
+            background-color: red;
+            border: 2px solid aqua ;
+        }
+       .boxes, [data-color="pri"]{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        ::selection{
+            background-color: rgb(11, 133, 232);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="boxes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, suscipit nostrum!
+            Provident ullam impedit voluptate quis assumenda placeat vel esse? Inventore quae laudantium, dolorum quo
+            debitis fugit culpa blanditiis iste dolorem omnis saepe.;</div>
+        <div class="boxes" data-color="pri">hey i am a 2nd box;</div>
+        <div class="boxes">hey i am a 3rd box;</div>
+    </div>
+</body>
+
+</html>

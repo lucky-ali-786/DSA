@@ -1,0 +1,14 @@
+var a=Math.floor(Math.random() * 3) + 1;
+var b=Math.floor(Math.random() * 3) + 1;
+var c=Math.floor(Math.random() * 3) + 1;
+ans="";
+if(a==1) ans+="Crazy";
+if(a==2) ans+="Amazing";
+if(a==3) ans+="Fire";
+if(b==1) ans+=" Engine";
+if(b==2) ans+=" Foods";
+if(b==3) ans+=" Garments";
+if(c==1) ans+=" Bros";
+if(c==2) ans+=" Limited";
+if(c==3) ans+=" Hub";
+console.log(ans);
